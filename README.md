@@ -1,22 +1,30 @@
-Windows 11 now has an intutive UI for connecting to bluetooth devices, so this tool is somewhat useless.
+# BTQuickie
 
-**Original README below**
+Quick Bluetooth device access for Windows via system tray.
 
-## BTQuickie
+## Status
 
-Windows 11 no longer allows its useres to quickly access Bluetooth devices using **Windows + K**, but this mini-app aims to solve the problem!
+**Note:** Windows 11 now includes a built-in UI for quickly connecting to Bluetooth devices, making this tool less necessary.
 
-Please don't heistate to post issues as this app can be somewhat unsatisfactory in its current state. 😊
+## Features
 
-### Dependencies
+- System tray icon for quick Bluetooth device access
+- Toggle device connections with a single click
+- Lightweight and runs in the background
 
-**Big thanks to all the amazing people sharing their code for free, you're my idols!**
+## Installation
 
-<a href="https://github.com/securifybv/ShellLink">ShellLink</a> <br/>
-<a href="https://github.com/HavenDV/H.NotifyIcon">H.NotifyIcon.Wpf</a> <br/>
-<a href="https://github.com/inthehand/32feet">InTheHand.Net.Bluetooth</a> <br/>
-<a href="https://github.com/CommunityToolkit/dotnet">CommunityToolkt.Mvvm</a> <br/>
-<a href="https://github.com/charri/Font-Awesome-WPF/">FontAwesome.WPF</a> <br/>
-And of course, Microsoft.* !
+Download the latest release and run the executable. The app will appear in your system tray.
 
-<3
+## Dependencies
+
+Built with:
+- [ShellLink](https://github.com/securifybv/ShellLink)
+- [H.NotifyIcon.Wpf](https://github.com/HavenDV/H.NotifyIcon)
+- [InTheHand.Net.Bluetooth](https://github.com/inthehand/32feet)
+- [CommunityToolkit.Mvvm](https://github.com/CommunityToolkit/dotnet)
+- [FontAwesome.WPF](https://github.com/charri/Font-Awesome-WPF/)
+
+## License
+
+MIT
